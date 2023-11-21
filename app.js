@@ -6,6 +6,7 @@ var bodyparser = require("body-parser");
 const UserModel = require("./models/user.model");
 var CarService = require("./cars");
 var CarData = require("./carData");
+
 const cors=require("cors")
 
 var UserController=require("./controler/UserController")
